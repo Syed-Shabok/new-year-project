@@ -97,3 +97,35 @@
 #failures-container i {
   color: #16d887;
 }
+
+#plans {
+  width: 71%;
+  min-width: 1141px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#plans h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#plans-container {
+  display: flex;
+  gap: 86px;
+}
+
+.plan-card img {
+  width: 92px;
+  margin-bottom: 24px;
+}
+
+.plan-card h2 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.plan-card p {
+  font-size: 25px;
+  color: #737272;
+}
