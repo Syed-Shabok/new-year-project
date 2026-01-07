@@ -22,7 +22,7 @@
 
 #banner {
   width: 1600px;
-  min-height: 808px;
+  height: 808px;
   overflow: hidden;
   background: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
@@ -51,4 +51,49 @@
   height: 78px;
   line-height: 26px;
   margin-bottom: 32px;
+}
+
+#failures {
+  width: 67%;
+  max-width: 1072px;
+  display: flex;
+  gap: 87px;
+  align-items: center;
+  text-align: left;
+  margin: 131px 322px 130px 206px;
+  overflow: hidden;
+}
+
+#failures-container {
+  margin: 239px 0px 84px;
+}
+
+#failures-container h1 {
+  width: 288px;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+#failures-container p {
+  width: 416px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+#failures-container ul {
+  width: 350px;
+  height: 162px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+#failures-container i {
+  color: #16d887;
 }
