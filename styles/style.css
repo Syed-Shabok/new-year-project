@@ -12,6 +12,7 @@
 .btn {
   background-color: #ffffff;
   padding: 20px 25px;
+  max-width: 160px;
   border: none;
   border-radius: 5px;
   color: #005fac;
@@ -101,7 +102,7 @@
 #plans {
   width: 71%;
   min-width: 1141px;
-  margin: 0 auto;
+  margin: 0 auto 130px;
   text-align: center;
 }
 
@@ -128,4 +129,27 @@
 .plan-card p {
   font-size: 25px;
   color: #737272;
+}
+
+footer {
+  width: 71%;
+  color: #ffffff;
+  min-width: 1141px;
+  height: 300px;
+  margin: 0 auto 130px;
+  background: url("../images/gradient1.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#footer-content {
+  width: 460px;
+  margin-left: 64px;
+  margin-top: 59px;
+  margin-bottom: 59px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
